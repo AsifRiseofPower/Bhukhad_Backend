@@ -23,7 +23,7 @@ server.get('/', (req, res) => {
 })
  
 // Signin Data and Save To MongoDB Database
-server.use(register)
+server.use(register)  
 
 // Login Data
 server.use(log)
